@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Package xmlns="http://schemas.microsoft.com/appx/2010/manifest">
+  <Identity Name="b4069692-3b86-4962-84c1-2aa2dd1e1595" Publisher="CN=William" Version="1.0.0.3" />
+  <Properties>
+    <DisplayName>SIUC RSS Reader</DisplayName>
+    <PublisherDisplayName>William</PublisherDisplayName>
+    <Logo>Assets\StoreLogo.png</Logo>
+  </Properties>
+  <Prerequisites>
+    <OSMinVersion>6.2.1</OSMinVersion>
+    <OSMaxVersionTested>6.2.1</OSMaxVersionTested>
+  </Prerequisites>
+  <Resources>
+    <Resource Language="x-generate" />
+  </Resources>
+  <Applications>
+    <Application Id="App" Executable="$targetnametoken$.exe" EntryPoint="SIUC_RSS_Reader.App">
+      <VisualElements DisplayName="SIUC RSS Reader" Logo="Assets\Logo.png" SmallLogo="Assets\SmallLogo.png" Description="SIUC RSS Reader" ForegroundText="light" BackgroundColor="#464646">
+        <DefaultTile ShowName="allLogos" />
+        <SplashScreen Image="Assets\SplashScreen.png" />
+      </VisualElements>
+    </Application>
+  </Applications>
+  <Capabilities>
+    <Capability Name="internetClient" />
+  </Capabilities>
+</Package>
